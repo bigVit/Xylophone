@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/c_key"
+        android:onClick="playC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+         />
+
+    <Button
+        android:id="@+id/d_key"
+        android:onClick="playD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorBlue"
+         />
+
+    <Button
+        android:id="@+id/e_key"
+        android:onClick="playE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorBrown"
+         />
+
+    <Button
+        android:id="@+id/f_key"
+        android:onClick="playF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorGreen"
+         />
+
+    <Button
+        android:id="@+id/g_key"
+        android:onClick="playG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorOrange"
+         />
+
+    <Button
+        android:id="@+id/a_key"
+        android:onClick="playA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPurple"
+         />
+
+    <Button
+        android:id="@+id/b_key"
+        android:onClick="playB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorRed"
+         />
+</LinearLayout>
